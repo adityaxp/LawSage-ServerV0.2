@@ -1,0 +1,6 @@
+llmServerEnv/
+LLMService/models/llama-3-8b-instruct-law-sage-v0.1.Q4_K_M.gguf
+RAGService/models/mistral-7b-instruct-v0.1.Q3_K_S.gguf
+RAGService/datasets/RAG-Central Acts Legislation of India.txt
+RAGService/datasets/RAG-Constitution.txt
+RAGService/datasets/RAG-State Acts Legislation of India.txt
