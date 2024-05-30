@@ -39,7 +39,9 @@ async def RAG_request(query_item: QueryItem):
         response = get_RAG_response(query_item.prompt, query_item.rag_type)
         return {
             "prompt": query_item.prompt,
-            "response" : response
+            "response" : {
+                "content": response
+            } 
         }
     else:
         return {"message": "Auth failed!"}
