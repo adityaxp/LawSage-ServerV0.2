@@ -1,4 +1,11 @@
 https://huggingface.co/AdityaXPV/Llama-3-8b-Instruct-law-sage-v0.1-GGUF/resolve/main/llama-3-8b-instruct-law-sage-v0.1.Q2_K.gguf?download=true
-https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf?download=true
+
+
+
+https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q3_K_S.gguf?download=true
+
+
+- llama.cpp
+
 CUDACXX=/usr/local/cuda-12/bin/nvcc CMAKE_ARGS="-DLLAMA_CUBLAS=on
 -DCMAKE_CUDA_ARCHITECTURES=all-major" FORCE_CMAKE=1 pip install llama-cpp-python --no-cache-dir --force-reinstall --upgrade
