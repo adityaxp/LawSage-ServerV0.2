@@ -45,9 +45,11 @@ def get_RAG_response(query, RAG_type):
         query = query + " Context: " + str(context[0])
     elif RAG_type == "RAG_central_acts":
         context = RAG_central_acts_get_context(query)
+        print(str(context[0]))
         query = query + " Context: " + str(context[0]) 
     elif RAG_type == "RAG_state_acts":
         context = RAG_state_acts_get_context(query)
+        print(str(context[0]))
         query = query + " Context: " + str(context[0])
     else:
         return "Error: Undefined RAG Type"
